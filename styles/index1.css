@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+
+.container {
+    height: 100vh;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-footer {
+    flex-grow: 1;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    flex-grow: 8;
+    display: flex;
+    gap: 10px;
+}
+
+.middle .nav {
+    flex-grow: 1;
+    background-color: #fac090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle .right-side {
+    flex-grow: 8;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.middle .right-side .top-part {
+    flex-grow: 5;
+    display: flex;
+    gap: 10px;
+}
+
+.middle .right-side .top-part .first {
+    flex-grow: 1;
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle .right-side .top-part .second {
+    flex-grow: 3;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.middle .right-side .top-part .third {
+    flex-grow: 2;
+    background-color: rgb(221, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.middle .right-side .middle-part {
+    flex-grow: 3;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle .right-side .bottom-part {
+    flex-grow: 4;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
